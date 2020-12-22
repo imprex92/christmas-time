@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Mountains+of+Christmas");
+.App {
+  text-align: center;
+  /* background-color: black; */
+}
+
+.snow {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+}
+
+.trees {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50% 1fr;
+      grid-template-rows: 50% 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/25839/trees.svg) repeat-x;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.merry {
+  color: #c84257;
+  font-family: 'Mountains of Christmas';
+  text-align: center;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-size: 6rem;
+}
+
+.fox {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  position: relative;
+}
+
+.tree {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+/*# sourceMappingURL=Main.css.map */
