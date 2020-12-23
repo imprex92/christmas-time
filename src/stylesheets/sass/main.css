@@ -14,19 +14,19 @@
 .trees {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 50% 1fr;
-      grid-template-rows: 50% 1fr;
+  -ms-grid-rows: 55% 1fr 10%;
+      grid-template-rows: 55% 1fr 10%;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/25839/trees.svg) repeat-x;
+  background: url(../../assets/shutterstock.svg) repeat-x;
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 75vh;
 }
 
 .merry {
   color: #c84257;
-  font-family: 'Mountains of Christmas';
+  font-family: Mountains of Christmas;
   text-align: center;
   -ms-grid-row: 1;
   grid-row: 1;
@@ -38,14 +38,30 @@
       align-self: center;
   -ms-grid-column-align: center;
       justify-self: center;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
-.fox {
+.wishFrom {
+  color: #c84257;
+  font-family: Mountains of Christmas;
+  text-align: center;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-size: 2rem;
+}
+
+.snowman {
   -ms-grid-column: 3;
   grid-column: 3;
-  -ms-grid-row: 3;
-  grid-row: 3;
+  -ms-grid-row: 2;
+  grid-row: 2;
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
       align-self: end;
@@ -62,6 +78,18 @@
       justify-self: end;
   -ms-grid-column: 1;
   grid-column: 1;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+.candles {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-grid-column: 2;
+  grid-column: 2;
   -ms-grid-row: 3;
   grid-row: 3;
 }
