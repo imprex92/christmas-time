@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Mountains+of+Christmas");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&display=swap");
 .App {
   text-align: center;
   /* background-color: black; */
@@ -26,33 +28,33 @@
 
 @media screen and (device-width: 360px) and (orientation: portrait) {
   .trees {
-    -ms-grid-rows: 23% 35% 7%;
-        grid-template-rows: 23% 35% 7%;
+    -ms-grid-rows: 23% 35% 7% 12% 15%;
+        grid-template-rows: 23% 35% 7% 12% 15%;
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
   .trees {
-    -ms-grid-rows: 18% 29% 5%;
-        grid-template-rows: 18% 29% 5%;
+    -ms-grid-rows: 18% 29% 5% 12% 15%;
+        grid-template-rows: 18% 29% 5% 12% 15%;
   }
 }
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (orientation: portrait) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 767px) and (orientation: portrait) {
   .trees {
-    -ms-grid-rows: 25% 28% 10%;
-        grid-template-rows: 25% 28% 10%;
+    -ms-grid-rows: 25% 28% 10% 12% 15%;
+        grid-template-rows: 25% 28% 10% 12% 15%;
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .trees {
     -ms-grid-rows: 33% 41% 10%;
         grid-template-rows: 33% 41% 10%;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) {
   .trees {
     -ms-grid-rows: 33% 41% 10%;
         grid-template-rows: 33% 41% 10%;
@@ -82,7 +84,7 @@
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
   .merry {
     font-size: 2rem;
   }
@@ -116,7 +118,7 @@
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
   .wishFrom {
     font-size: 1rem;
   }
@@ -125,6 +127,126 @@
 @media screen and (device-width: 360px) and (orientation: portrait) {
   .wishFrom {
     font-size: 1rem;
+  }
+}
+
+.japanese {
+  font-family: Noto Serif JP;
+  font-size: 2rem;
+  text-align: center;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  color: #c84257;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (orientation: portrait) {
+  .japanese {
+    font-size: 1rem;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+  .japanese {
+    font-size: 1rem;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+}
+
+@media screen and (device-width: 360px) and (orientation: portrait) {
+  .japanese {
+    font-size: 1rem;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+}
+
+.chinese {
+  font-family: Long Cang;
+  font-size: 2rem;
+  text-align: center;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  color: #c84257;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (orientation: portrait) {
+  .chinese {
+    font-size: 1rem;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+  .chinese {
+    font-size: 1rem;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+}
+
+@media screen and (device-width: 360px) and (orientation: portrait) {
+  .chinese {
+    font-size: 1rem;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+}
+
+.french {
+  font-family: Mountains of Christmas;
+  font-size: 2rem;
+  text-align: center;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  color: #c84257;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (orientation: portrait) {
+  .french {
+    -ms-grid-row: 5;
+    grid-row: 5;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+  .french {
+    -ms-grid-row: 5;
+    grid-row: 5;
+  }
+}
+
+@media screen and (device-width: 360px) and (orientation: portrait) {
+  .french {
+    -ms-grid-row: 5;
+    grid-row: 5;
   }
 }
 
@@ -151,7 +273,7 @@
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
   .Snowman {
     width: 125px;
   }
@@ -185,7 +307,7 @@
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
   .Tree {
     width: 115px;
   }
@@ -219,7 +341,7 @@
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
   .Candles {
     width: 100px;
   }

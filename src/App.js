@@ -147,6 +147,15 @@ useEffect(() => {
 				<div className="wishFrom">
 					<h2>from <wbr/> Daniel</h2>
 				</div>
+				<div className="japanese">
+					<h2>メリークリスマス</h2>
+				</div>
+				<div className="chinese">
+					<h2>圣诞节快乐</h2>
+				</div>
+				<div className="french">
+					<h2>Joyeux Noël</h2>
+				</div>
 			</div>
 		</div>
 	);
