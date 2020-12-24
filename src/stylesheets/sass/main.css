@@ -14,14 +14,49 @@
 .trees {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 55% 1fr 10%;
-      grid-template-rows: 55% 1fr 10%;
+  -ms-grid-rows: 67% 1fr 10%;
+      grid-template-rows: 67% 1fr 10%;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   background: url(../../assets/shutterstock.svg) repeat-x;
   position: relative;
   width: 100%;
   height: 75vh;
+}
+
+@media screen and (device-width: 360px) and (orientation: portrait) {
+  .trees {
+    -ms-grid-rows: 23% 35% 7%;
+        grid-template-rows: 23% 35% 7%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+  .trees {
+    -ms-grid-rows: 18% 29% 5%;
+        grid-template-rows: 18% 29% 5%;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (orientation: portrait) {
+  .trees {
+    -ms-grid-rows: 25% 28% 10%;
+        grid-template-rows: 25% 28% 10%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) {
+  .trees {
+    -ms-grid-rows: 33% 41% 10%;
+        grid-template-rows: 33% 41% 10%;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .trees {
+    -ms-grid-rows: 33% 41% 10%;
+        grid-template-rows: 33% 41% 10%;
+  }
 }
 
 .merry {
@@ -41,6 +76,24 @@
   font-size: 5rem;
 }
 
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (orientation: portrait) {
+  .merry {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+  .merry {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (device-width: 360px) and (orientation: portrait) {
+  .merry {
+    font-size: 2rem;
+  }
+}
+
 .wishFrom {
   color: #c84257;
   font-family: Mountains of Christmas;
@@ -57,6 +110,24 @@
   font-size: 2rem;
 }
 
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (orientation: portrait) {
+  .wishFrom {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+  .wishFrom {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (device-width: 360px) and (orientation: portrait) {
+  .wishFrom {
+    font-size: 1rem;
+  }
+}
+
 .snowman {
   -ms-grid-column: 3;
   grid-column: 3;
@@ -68,6 +139,28 @@
   -ms-grid-column-align: start;
       justify-self: start;
   position: relative;
+}
+
+.Snowman {
+  width: 15.625em;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (orientation: portrait) {
+  .Snowman {
+    width: 130px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+  .Snowman {
+    width: 125px;
+  }
+}
+
+@media screen and (device-width: 360px) and (orientation: portrait) {
+  .Snowman {
+    width: 117px;
+  }
 }
 
 .tree {
@@ -82,6 +175,28 @@
   grid-row: 2;
 }
 
+.Tree {
+  width: 12.5em;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (orientation: portrait) {
+  .Tree {
+    width: 115px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+  .Tree {
+    width: 115px;
+  }
+}
+
+@media screen and (device-width: 360px) and (orientation: portrait) {
+  .Tree {
+    width: 100px;
+  }
+}
+
 .candles {
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
@@ -92,5 +207,27 @@
   grid-column: 2;
   -ms-grid-row: 3;
   grid-row: 3;
+}
+
+.Candles {
+  width: 12.5em;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) and (orientation: portrait) {
+  .Candles {
+    width: 100px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+  .Candles {
+    width: 100px;
+  }
+}
+
+@media screen and (device-width: 360px) and (orientation: portrait) {
+  .Candles {
+    width: 110px;
+  }
 }
 /*# sourceMappingURL=Main.css.map */

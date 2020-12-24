@@ -46,7 +46,7 @@ useEffect(() => {
 	tsParticles.load("tsparticles", {
 		fps_limit: 60,
 	interactivity: {
-		detect_on: "canvas",
+		detect_on: "window",
 		events: {
 			onclick: { enable: true, mode: "repulse" },
 			onhover: {
@@ -136,13 +136,13 @@ useEffect(() => {
 					<h2>Merry Christmas</h2>
 				</div>
 				<div className="snowman">
-					<img src={snowman} width="250px" alt="Snowman"/>
+					<img className="Snowman" src={snowman} alt="Snowman"/>
 				</div>
 				<div className="tree">
-				<img src={tree} width="200px" alt="tree"/>
+				<img className="Tree" src={tree} alt="tree"/>
 				</div>
 				<div className="candles">
-					<img src={fourthAdvent} width="200px" alt="Candles"/>
+					<img className="Candles" src={fourthAdvent} alt="Candles"/>
 				</div>
 				<div className="wishFrom">
 					<h2>from <wbr/> Daniel</h2>
